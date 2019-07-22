@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # This file is part of COUNTER-Robots.
-# Copyright (C) 2018 CERN.
+# Copyright (C) 2019 CERN.
 #
 # COUNTER-Robots is free software; you can redistribute it and/or modify it
 # under the terms of the MIT License; see LICENSE file for more details.
@@ -49,7 +49,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'COUNTER-Robots'
-copyright = u'2018, CERN'
+copyright = u'2019, CERN'
 author = u'CERN'
 
 # The version info for the project you're documenting, acts as replacement for
