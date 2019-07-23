@@ -20,7 +20,8 @@ python:
 
 stages:
   - name: before-script
-    if: env(TRAVIS_EVENT_TYPE) = cron
+    if: branch:master
+    # env(TRAVIS_EVENT_TYPE) = cron
 
 before_install:
   - "travis_retry pip install --upgrade pip setuptools py"
@@ -30,7 +31,8 @@ install:
   - "travis_retry pip install .[all]"
 
 before-script:
- - "travis_retry ./run-update.sh"
+#  - "travis_retry ./run-update.sh"
+  - "echo 'Run before stage'"
 
 script:
   - "./run-tests.sh"
