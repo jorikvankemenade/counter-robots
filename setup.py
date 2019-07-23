@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # This file is part of COUNTER-Robots.
-# Copyright (C) 2018 CERN.
+# Copyright (C) 2019 CERN.
 #
 # COUNTER-Robots is free software; you can redistribute it and/or modify it
 # under the terms of the MIT License; see LICENSE file for more details.
@@ -22,7 +22,7 @@ tests_require = [
     'pydocstyle>=1.0.0',
     'pytest-cov>=1.8.0',
     'pytest-pep8>=1.0.6',
-    'pytest>=2.8.0',
+    'pytest>=3.6',
 ]
 
 extras_require = {
