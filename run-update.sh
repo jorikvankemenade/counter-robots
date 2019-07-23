@@ -9,12 +9,13 @@
 #
 # COUNTER-Robots is free software; you can redistribute it and/or modify it
 # under the terms of the MIT License; see LICENSE file for more details.
-set -e
-python scripts/update-lists.py
+# set -e
+# python scripts/update-lists.py
 
-if git diff --name-only; then
-    git commit --author="'Invenio <info@inveniosoftware.org>" \
-        -am "Update the user-agent lists"
-    export TRAVIS_TAG=$(date +'%Y.%m')
-    git tag $TRAVIS_TAG
-fi
+# if git diff --name-only; then
+#     git commit --author="'Invenio <info@inveniosoftware.org>" \
+#         -am "Update the user-agent lists"
+#     export TRAVIS_TAG=$(date +'%Y.%m')
+#     git tag $TRAVIS_TAG
+# fi
+echo "Updating!"
