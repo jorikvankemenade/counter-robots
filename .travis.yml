@@ -34,7 +34,7 @@ after_success:
 jobs:
   include:
   - stage: Pypi release
-    if: branch = master
+    if: type = cron
     script: "./run-update.sh"
     python: "3.6"
     provider: pypi
